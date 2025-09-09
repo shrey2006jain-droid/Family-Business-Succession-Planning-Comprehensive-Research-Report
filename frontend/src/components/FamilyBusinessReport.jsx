@@ -310,6 +310,18 @@ const FamilyBusinessReport = () => {
           </div>
         );
 
+      case 'methodology':
+        return <MethodologySection />;
+
+      case 'findings':
+        return <FindingsSection />;
+
+      case 'frameworks':
+        return <FrameworksSection />;
+
+      case 'recommendations':
+        return <RecommendationsSection />;
+
       default:
         return (
           <div className="text-center py-8">
