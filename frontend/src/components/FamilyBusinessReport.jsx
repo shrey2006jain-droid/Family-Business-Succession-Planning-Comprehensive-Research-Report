@@ -46,6 +46,7 @@ import {
   Legend
 } from 'recharts';
 import { CitationLink } from './CitationLink';
+import { MethodologySection, FindingsSection, FrameworksSection, RecommendationsSection } from './ReportSections';
 import { 
   citations,
   survivalRatesData,
